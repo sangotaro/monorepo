@@ -1,0 +1,10 @@
+{
+  "name": "@sangotaro/monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">= 16"
+  }
+}
