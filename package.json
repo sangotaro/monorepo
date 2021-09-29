@@ -4,6 +4,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "devDependencies": {
+    "typescript": "4.4.3"
+  },
   "engines": {
     "node": ">= 16"
   }
