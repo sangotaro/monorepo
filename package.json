@@ -4,7 +4,12 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "fmt": "prettier -w .",
+    "lint:fmt": "prettier -c ."
+  },
   "devDependencies": {
+    "prettier": "2.4.1",
     "typescript": "4.4.3"
   },
   "engines": {
