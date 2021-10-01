@@ -1,9 +1,0 @@
-{
-  "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
-    "jpoissonnier.vscode-styled-components",
-    "streetsidesoftware.code-spell-checker",
-    "stylelint.vscode-stylelint"
-  ]
-}
