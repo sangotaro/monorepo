@@ -7,5 +7,6 @@
     "source.addMissingImports"
   ],
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": []
+  "cSpell.words": [],
+  "prettier.ignorePath": ".gitignore"
 }

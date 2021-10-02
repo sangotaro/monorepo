@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "fmt": "prettier -w .",
-    "lint:fmt": "prettier -c ."
+    "fmt": "prettier --ignore-path .gitignore -w .",
+    "lint:fmt": "prettier --ignore-path .gitignore -c ."
   },
   "devDependencies": {
     "prettier": "2.4.1",
