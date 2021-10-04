@@ -27,3 +27,4 @@ jobs:
           cache: "npm"
       - run: npm ci
       - run: npm run lint:fmt
+      - run: npm run eslint
