@@ -1,0 +1,14 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    /* Projects */
+    "composite": true,
+
+    /* Modules */
+    "rootDir": "./src",
+
+    /* Emit */
+    "declaration": true,
+    "outDir": "./dist"
+  }
+}

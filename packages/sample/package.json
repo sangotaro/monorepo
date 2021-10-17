@@ -1,5 +1,5 @@
 {
-  "name": "@sangotaro/core",
+  "name": "@sangotaro/sample",
   "private": true,
   "main": "dist/index",
   "types": "dist/index",
@@ -10,5 +10,8 @@
     "build": "npm run clean && npm run compile",
     "clean": "rm -rf ./dist && tsc -b tsconfig.build.json --clean",
     "compile": "tsc -b tsconfig.build.json"
+  },
+  "dependencies": {
+    "@sangotaro/core": "*"
   }
 }
